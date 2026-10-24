@@ -1,0 +1,7 @@
+                   MAE_kwh  RMSE_kwh  better_than_baseline_2_%  better_than_best_baseline_%  days
+baseline_1            6.52      8.72                       5.0                        -37.0   351
+baseline_2            6.86      7.98                       0.0                        -44.0   351
+baseline_3            4.75      6.12                      31.0                          0.0   351
+linear_regression     2.74      3.58                      60.0                         42.0   351
+random_forest         2.61      3.49                      62.0                         45.0   351
+gradient_boosting     2.57      3.44                      63.0                         46.0   351

@@ -1,0 +1,9 @@
+# Packages used by the scripts in src/. For exact versions on your machine run:  pip freeze > requirements.txt
+pandas
+numpy
+matplotlib
+scikit-learn
+pvlib
+
+# Only needed for the notebooks:
+# jupyter
