@@ -1,7 +1,7 @@
 """
 STEP 1 - raw files -> clean daily tables.
 
-Run from anywhere:   python src/prepare_data.py
+Run from anywhere:   python Training/prepare_data.py
 
 What it does
   1. loads the PVGIS file, finds the gap hours, builds the daily energy (the TARGET)

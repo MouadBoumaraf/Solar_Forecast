@@ -1,4 +1,4 @@
-# Packages used by the scripts in src/. For exact versions on your machine run:  pip freeze > requirements.txt
+# Packages used by the scripts in Training/. For exact versions on your machine run:  pip freeze > requirements.txt
 pandas
 numpy
 matplotlib

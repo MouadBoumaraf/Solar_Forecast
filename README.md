@@ -13,7 +13,7 @@ python -m venv .venv
 .venv\Scripts\activate            (Mac/Linux: source .venv/bin/activate)
 pip install -r requirements.txt
 
-# put the two raw files in data/raw/ (names are set in src/config.py)
-python src/prepare_data.py        # step 1: raw files -> data/processed/
-python src/run_evaluation.py      # step 2: baselines + models -> results/
+# put the two raw files in data/raw/ (names are set in Training/config.py)
+python Training/prepare_data.py        # step 1: raw files -> data/processed/
+python Training/run_evaluation.py      # step 2: baselines + models -> results/
 ```

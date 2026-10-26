@@ -13,7 +13,7 @@ import pandas as pd
 from sklearn.ensemble import HistGradientBoostingRegressor, RandomForestRegressor
 from sklearn.linear_model import LinearRegression
 
-from config import RANDOM_STATE, TARGET
+from Training.config import RANDOM_STATE, TARGET
 
 # Same list as in prepare_data.py: columns that would hand the answer to the model.
 LEAKY_COLUMNS = {"P", "G(i)", "H_sun", "T2m", "WS10m", "irradiance_kwh_m2", "gap_hours"}

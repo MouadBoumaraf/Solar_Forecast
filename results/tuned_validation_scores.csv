@@ -1,0 +1,4 @@
+model,CV_MAE_kWh_day,validation_MAE_kWh_day,validation_RMSE_kWh_day,best_parameters
+gradient_boosting,2.816307741262837,2.5143031287707935,3.353365851264774,"{'learning_rate': 0.05, 'max_iter': 200, 'max_leaf_nodes': 15}"
+random_forest,2.8276375982782374,2.5940703164301984,3.46600580732249,"{'max_depth': None, 'min_samples_leaf': 3, 'n_estimators': 300}"
+linear_regression,3.03741931697654,2.756307244717942,3.589531010786114,{'fit_intercept': True}
