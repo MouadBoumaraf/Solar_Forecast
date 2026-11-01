@@ -1,9 +1,10 @@
-# Packages used by the scripts in Training/. For exact versions on your machine run:  pip freeze > requirements.txt
+fastapi
+uvicorn
 pandas
 numpy
-matplotlib
 scikit-learn
-pvlib
-
-# Only needed for the notebooks:
-# jupyter
+joblib
+openmeteo-requests
+requests-cache
+retry-requests
+requests
