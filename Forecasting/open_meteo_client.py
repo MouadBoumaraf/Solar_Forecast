@@ -45,7 +45,6 @@ openmeteo = openmeteo_requests.Client(
 class WeatherAPIError(RuntimeError):
     """Raised when weather data cannot be retrieved or processed."""
 
-
 # Build the request parameters
 
 def _build_params(forecast_days: int) -> dict:
@@ -133,7 +132,7 @@ def _build_weather_dataframe(hourly) -> pd.DataFrame:
     return weather
 
 
-#  Main function: fetch the weather 
+#  the main  function: fetch the weather 
 
 def fetch_hourly_forecast(
     forecast_days: int = 8,
